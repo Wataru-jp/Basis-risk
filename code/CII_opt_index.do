@@ -12,7 +12,7 @@ cd "/Users/kodam1/Documents/GitHub/Basis-risk"
 **************************
 *** Prep ***
 // Maize yield data from Crop Forecast Survey
-import delimited "data/cfs/yield_1975_2010.csv", varnames(1) clear 
+import delimited "https://github.com/Wataru-jp/Basis-risk/raw/main/data/production/yield_1975_2010.csv", varnames(1) clear 
 // different units of maize production
 gen prdctn_exp = prdctn_expctd*90/1000 if source == "sheet1" | source == "sheet2"
 replace prdctn_exp = prdctn_expctd ///
@@ -44,10 +44,10 @@ tempfile temp_yield
 save `temp_yield', replace
 
 // Rainfall data: Choma
-import delimited "rawdata/rainfall/Choma_1949-2012.csv", varnames(1) clear 
+import delimited "https://github.com/Wataru-jp/Basis-risk/raw/main/data/rainfall/Choma_1949-2012.csv", varnames(1) clear 
 rename ay year
 
-merge m:1 year using $data/statadata/choma2.dta
+merge m:1 year using "https://github.com/Wataru-jp/Basis-risk/raw/main/data/rainfall/choma.dta"
 drop _merge
 egen rain = rowtotal(nov dec jan feb mar apr) // annual (11-4)
 egen rain_fl = rowtotal(jan feb) // flowering season
@@ -61,8 +61,7 @@ tempfile choma
 save `choma', replace
 
 // Rainfall data: Malima
-import excel $data/rawdata/rainfall/Malima/rainfall＿BuleyaMalima.xlsx, ///
-	 sheet("Malima_rainfall") firstrow clear
+import excel "https://github.com/Wataru-jp/Basis-risk/raw/main/data/rainfall/rainfall%EF%BC%BFBuleyaMalima.xlsx", sheet("Malima_rainfall") firstrow clear
 rename rainfall_irrigation rain 
 keep year month rain
 replace year = year - 1 if month <= 10
@@ -86,7 +85,7 @@ drop _merge
 
 drop if choma == .
  
- 	
+	
 	
 ***** Graphs *****
 twoway kdensity yield if choma == 0, lpattern(solid) lcolor(gs7) ///
