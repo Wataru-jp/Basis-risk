@@ -5,13 +5,11 @@
 * Update: 2023 March 30
 ***
 
-global data "/Users/kodam1/Dropbox/Project_indexinsurance/data"
-global paper "/Users/kodam1/Dropbox/Project_indexinsurance/paper/manuscript"
-global presen "/Users/kodam1/Dropbox/Project_indexinsurance/presen/tex"
-
-cd $data
 cd "/Users/kodam1/Documents/GitHub/Basis-risk"
 
+**************************
+**** read data 
+**************************
 use "https://github.com/Wataru-jp/Basis-risk/raw/main/data/index_insurance.dta", clear
 //use data/index_insurance.dta, clear
 
