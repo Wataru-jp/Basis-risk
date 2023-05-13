@@ -4,23 +4,15 @@
 * Date: 2022 March 5
 * Update: 2022 March 30
 ***
-cap global dropbox "D:/Dropbox" //Ken
-global data "$dropbox\zambia_miura\w_insurance\Project_indexinsurance\data" 
-global paper "$dropbox\zambia_miura\w_insurance\Project_indexinsurance\paper\AEJ" 
-global presen "$dropbox\zambia_miura\w_insurance\Project_indexinsurance\presen\tex" 
 
-global data "/Users/kodam1/Dropbox/Project_indexinsurance/data"
-global paper "/Users/kodam1/Dropbox/Project_indexinsurance/paper"
-global presen "/Users/kodam1/Dropbox/Project_indexinsurance/presen/tex"
-
-cd $data
+cd "/Users/kodam1/Documents/GitHub/Basis-risk"
 
 **************************
 **** Yiled and rainfall **
 **************************
 *** Prep ***
 // Maize yield data from Crop Forecast Survey
-import delimited "rawdata/cfs/yield_1975_2010.csv", varnames(1) clear 
+import delimited "data/cfs/yield_1975_2010.csv", varnames(1) clear 
 // different units of maize production
 gen prdctn_exp = prdctn_expctd*90/1000 if source == "sheet1" | source == "sheet2"
 replace prdctn_exp = prdctn_expctd ///
