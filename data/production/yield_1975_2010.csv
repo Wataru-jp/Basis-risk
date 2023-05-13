@@ -1,0 +1,64 @@
+year,province,district,Category,crop,area_planted,area_harvested,prdctn_expctd,sales_expctd,basal,top,source
+1975,Southern,Choma,Total,Maize (90kg),5800,,200507,,,,sheet1
+1976,Southern,Choma,Total,Maize (90Kgs),25169,,825080,,,,sheet1
+1977,Southern,Choma,Total,Maize (90Kgs),20000,,120000,,,,sheet1
+1978,Southern,Choma,Total,Maize (90Kgs),20128,,323370,,,,sheet1
+1979,Southern,Choma,Total,Maize (90Kgs),26000,,600000,,,,sheet1
+1980,Southern,Choma,Total,Maize (90Kgs),32060,,1450800,,,,sheet1
+1981,Southern,Choma,Total,Maize (90Kgs),16980,,574500,,,,sheet1
+1982,Southern,Choma,Total,Maize (90Kgs),15980,,484500,,,,sheet1
+1983,Southern,Choma,Total,Maize (90Kgs),21591,,434364,,,,sheet1
+1984,Southern,Choma,Total,Maize (90Kgs),32200,,831038,,,,sheet1
+1985,Southern,Choma,Total,Maize (90Kgs),27002,,1197146,,,,sheet1
+1986,Southern,Choma,Total,Maize (90Kgs),32752,,580149,,,,sheet1
+1987,Southern,Choma,Total,Maize (90Kgs),26155,,1083986,,,,sheet1
+1988,Southern,Choma,Total,Maize (90Kgs),42947,,1084877,,,,sheet1
+1989,Southern,Choma,Total,Maize (90Kgs),50127,,567800,,,,sheet1
+1990,Southern,Choma,Total,Maize (90Kgs),18387,,425131,,,,sheet1
+1991,Southern,Choma,Total,Maize (90Kgs),22821,,35356,,,,sheet1
+1992,Southern,Choma,Total,Maize (90Kgs),47431,,1175810,,,,sheet1
+1993,Southern,Choma,Total,Maize (90Kgs),23581,,434480.6,,,,sheet1
+1994,Southern,Choma,Total,Maize (90Kgs),14072,,94891,,,,sheet1
+1995,Southern,Choma,Total,Maize (90Kgs),28555,,687700,,,,sheet1
+1996,Southern,Choma,Total,Maize (90Kgs),22953,,418643,,,,sheet1
+1993,Southern,Sinazongwe,Total,Maize (90Kgs),4781.1,,61011.79,,,,sheet1
+1994,Southern,Sinazongwe,Total,Maize (90Kgs),4338,,176,,,,sheet1
+1995,Southern,Sinazongwe,Total,Maize (90Kgs),2269,,8640,,,,sheet1
+1996,Southern,Sinazongwe,Total,Maize (90Kgs),7091,,95543,,,,sheet1
+1997,Southern,Choma,Small & Medium,Maize,20118,,313416,31390,671430,645644,sheet2
+1997,Southern,Choma,Large Scale,Maize,168,,4080,550,39450,38950,sheet2
+1997,Southern,Sinazongwe,Small & Medium,Maize,7216,,48940,6610,210,210,sheet2
+1997,Southern,Sinazongwe,Large Scale,Maize,0,,0,0,0,0,sheet2
+1996,Southern,Choma,Total,Maize,22953,14620,37677.87,7816.41,441.224,355.519,sheet3
+1999,Southern,Choma,Total,Maize,38232,38232,1146.96,745524,6881800,7493500,sheet3
+2000,Southern,Choma,Total,Maize,23102.83333,22361.16667,54400.315,,,,sheet3
+2001,Southern,Choma,Total,Maize,25667.89,12790.19,14085,710,,,sheet3
+2002,Southern,Choma,Total,Maize,25749.38,13636.59,24597.2,5461.75,1211.97,1214.61,sheet3
+2003,Southern,Choma,Total,Maize,25094.25357,22347.13214,43873.08151,9574.234514,,,sheet3
+2004,Southern,Choma,Large Scale,Maize,510,366.43,1573.25,1236.63,,,sheet3
+2004,Southern,Choma,Small Scaleall & Medium,Maize,37113,14924.42,26423.64,3099.93,,,sheet3
+2005,Southern,Choma,Large Scale,Maize,545,535,2173,,,,sheet3
+2005,Southern,Choma,Small Scaleall & Medium,Maize,27322,17370,45177,,,,sheet3
+2006,Southern,Choma,Large Scale,Maize,601,570,1997.25,1997.25,153.95,109.3,sheet3
+2006,Southern,Choma,Small Scale,Maize,21857.61019,16667.27302,49952.62259,6486.007454,1340.136034,1456.097336,sheet3
+2007,Southern,Choma,Large Scale,Maize,912,583,1235,755,110,89,sheet3
+2007,Southern,Choma,Small Scale,Maize,25851,7142,12678,207,1277,1255,sheet3
+2008,Southern,Choma,Large Scale,Maize,561.27,557.52,2388.82,2144.43,167.25,142.13,sheet3
+2008,Southern,Choma,Small Scale,Maize,27248.44,19615.93,45024.23329,12978.67913,1702.33418,1883.3571,sheet3
+1996,Southern,Sinazongwe,,Maize,7091,4191,8598.87,1580.76,22.456,23.59,sheet3
+2000,Southern,Sinazongwe,,Maize,5526,4194,6438.5325,,,,sheet3
+2001,Southern,Sinazongwe,,Maize,5383.38,653.37,646,14,,,sheet3
+2002,Southern,Sinazongwe,,Maize,5313.61,870.98,1013.28,119.24,46.86,49.55,sheet3
+2003,Southern,Sinazongwe,,Maize,1813.45,1420.71,2098.67801,20.1041,,,sheet3
+2004,Southern,Sinazongwe,Small Scaleall & Medium,Maize,6967,187.94,320.58,12.79,,,sheet3
+2005,Southern,Sinazongwe,Small Scaleall & Medium,Maize,4055,1631,3353,,,,sheet3
+2006,Southern,Sinazongwe,Small Scale,Maize,9728.101474,4701.324766,11617.95741,2426.120009,9.542871517,10.58307963,sheet3
+2007,Southern,Sinazongwe,Small Scale,Maize,6578,1526,1736,0,22,32,sheet3
+2008,Southern,Sinazongwe,Large Scale,Maize,1170,1170,0,0,0,0,sheet3
+2008,Southern,Sinazongwe,Small Scale,Maize,9078.76,8172.78,12417.79502,750.87562,48.74433,62.9952,sheet3
+2009,Southern,Choma,Large Scale,Maize,685,685,2765,2505,187,135,sheet4
+2009,Southern,Choma,Small Scale,Maize,34937,29115,61053,16798,1940,2330,sheet4
+2009,Southern,Sinazongwe,Large Scale,Maize,765,765,3481,3481,268,230,sheet4
+2009,Southern,Sinazongwe,Small Scale,Maize,12319,7579,14426,3134,249,274,sheet4
+2010,Southern,Choma,Total,Maize,38043.18481,26006.19326,100268.0192,43172.20304,2657.887451,2689.41776,sheet5
+2010,Southern,Sinazongwe,Total,Maize,12472.11887,9608.37852,14165.43375,2181.191627,329.3733416,353.492195,sheet5
